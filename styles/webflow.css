@@ -1,0 +1,90 @@
+
+.btn-primary{
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 36px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.open-sans-raleway {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+header {
+    background-image: url(../Assets/Hero-bg.png); 
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* nav styles */
+.btn-sign-up{
+    width: 140px;
+    height: 48px;
+}
+
+.nav-logo{
+    font-weight: 800;
+    font-size: 34px;
+    color: #4E47FF;
+}
+
+nav{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cool-dark{
+    text-align: center;
+    margin: 150px 260px 150px;
+}
+
+.cool-dark-design{
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+}
+
+.btn-stay-focus{
+    width: 175px;
+    height: 58px;
+}
+
+
+
+/* main styles */
+.see-action-description {
+    color: rgba(37, 36, 50, 0.5); 
+    font-size: 24px;
+}
+
+.see-action{
+    font-size: 42px;
+    color: #252432;
+}
