@@ -28,6 +28,30 @@
         "wdth" 100;
 }
 
+.ag-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #252432;
+}
+
+.ag-body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: rgba(117, 117, 117, 1);
+}
+
+.ag-body-strong {
+    font-family: 'Inter', sans-serif; /* or the font used in your design */
+    font-size: 16px;                  /* same as regular body text */
+    font-weight: 600;                 /* semi-bold or strong */
+    line-height: 150%;                /* 1.5 or 150% for good readability */
+    color: #252432;                   /* or any color from your design system */
+}
+
 header {
     background-image: url(../Assets/Hero-bg.png); 
     background-repeat: no-repeat;
@@ -148,4 +172,52 @@ nav{
 
 .div-cmn-actv-foucs-satis{
     color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* main section - 3 */
+
+.div-what-users{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    
+}
+
+.h4-what-users{
+    font-size: 42px;
+    color: #252432;
+    text-align: center;
+}
+
+.div-loved-desiners{
+    display: flex;
+    gap: 20px;
+    
+    
+}
+
+.div-same{
+    border-radius: 14px;
+    background-color: #F2EDED;
+    padding: 24px;
+    
+}
+
+.div-img-all{
+    display: flex;
+    gap: 4px;
+}
+
+.avater-image{
+    border-radius: 9999px;
+}
+
+.div-reviewer{
+
+}
+
+.span-date{
+
 }
