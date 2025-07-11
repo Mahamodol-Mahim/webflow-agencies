@@ -9,6 +9,10 @@
     font-size: 16px;
 }
 
+body{
+    background-color: rgb(247, 249, 255);
+}
+
 .open-sans-inter {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -200,7 +204,7 @@ nav{
 
 .div-same{
     border-radius: 14px;
-    background-color: #F2EDED;
+    background-color: rgba(242, 237, 237, 1);
     padding: 24px;
     
 }
@@ -221,3 +225,98 @@ nav{
 .span-date{
 
 }
+
+
+/* main section - 4 */
+.div-ready-focus{
+    width: 1140px;
+    height: 700px;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+
+}
+.div-items-ready-focus{
+`   
+}
+.h3-ready-focus{
+    font-weight:bold;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-left: auto;
+    padding-right: auto;
+}
+.p-ths template{
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 20px;
+
+}
+.btn-get started{
+    width: 120px;
+    height: 25px;
+    color: rgba(255, 255, 255, 1);
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 192px;
+
+}
+.img-webflow{
+    border-radius: 48px;
+    width: 840px;
+    height: 360px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 20px;
+
+}
+
+
+/* main section - 5 */
+.div-let-form-all{
+    width: 1140px;
+    height: 632px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.div-let-get{
+    
+    
+    
+}
+.h2-let-get{
+    font-weight: bold;
+    font-size: 97px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+}
+.div-form{
+    padding-top: 71;
+    border-bottom: 71;
+    width: 500px;
+    height: 490px;
+    
+}
+.form input[type="text"] ,form input[type="text"],form button, form input[type="email"], form textarea{
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 500px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
