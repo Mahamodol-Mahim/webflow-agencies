@@ -320,3 +320,47 @@ nav{
     box-sizing: border-box;
 }
 
+
+/* footer */
+.div-footer-all{
+    text-align: center;
+    width: 100%;
+}
+.div-footer{
+    padding: 100px 100px;
+}
+
+.h1-logo{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 100px;
+
+}
+.p-logo{
+    padding-left: 360px;
+    padding-right: 360px;
+}
+.div-footer nav ul{
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    gap: 100px;
+    padding-left: 200px;
+    padding-right: 160px;
+    
+}
+.div-footer nav ul li{
+    list-style: none;
+    white-space: nowrap;
+    white-space: normal;
+    
+    
+}
+.div-footer nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #8987A1;
+
+    
+}
+
