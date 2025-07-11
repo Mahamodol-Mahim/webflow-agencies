@@ -49,11 +49,11 @@ body{
 }
 
 .ag-body-strong {
-    font-family: 'Inter', sans-serif; /* or the font used in your design */
-    font-size: 16px;                  /* same as regular body text */
-    font-weight: 600;                 /* semi-bold or strong */
-    line-height: 150%;                /* 1.5 or 150% for good readability */
-    color: #252432;                   /* or any color from your design system */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;                  
+    font-weight: 600;           
+    line-height: 150%;               
+    color: #252432;           
 }
 
 header {
@@ -109,7 +109,6 @@ nav{
 
 /* main styles - 1*/
 
-
 .see-action-description {
     color: rgba(37, 36, 50, 0.5); 
     font-size: 24px;
@@ -141,7 +140,7 @@ nav{
 }
 
 
-/* main styles -2*/
+/* main styles - 2*/
 .div-actv-focus-satis{
     background-color: rgba(78, 71, 255, 0.1);
     width: 1140px;
@@ -204,8 +203,10 @@ nav{
 
 .div-same{
     border-radius: 14px;
-    background-color: rgba(242, 237, 237, 1);
+    background-color: white;
     padding: 24px;
+    box-shadow: 5px 4px 16px rgba(0, 0, 0, 0.1);
+
     
 }
 
@@ -219,11 +220,11 @@ nav{
 }
 
 .div-reviewer{
-
+    color: rgba(117, 117, 117, 1);
 }
 
 .span-date{
-
+    color: rgba(179, 179, 179, 1);
 }
 
 
